@@ -1,0 +1,33 @@
+header{
+	width: 100%;
+	height: 900px;
+	background-color: grey;
+	position: relative;
+}
+
+.name-logo{
+	font-family: 'Pacifico', cursive;
+	padding: 15px 25px;
+	font-size: 35px;
+	float: right;
+}
+.top-cont{
+	position: absolute;
+	right: 0;
+	top: calc(60% - 186px);
+	text-align: left;
+
+}
+.top-cont a li{
+	padding: 20px;
+	margin-top: 1px;
+}
+
+
+.top-cont a{
+	color: black;
+}
+.top-cont a li:hover{
+	list-style: circle;
+	background-color: red;
+}
